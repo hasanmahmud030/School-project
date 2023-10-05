@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background: url("image/background.png");
+}
+.container{
+    background-position: center;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+    
+.header{
+    position: relative;
+}
+.header .img{
+    width: 70%;
+    height: 250px;
+    margin-left:  200px;
+     
+}
+.text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    margin-left: 250px;
+   
+}
+.nav{
+
+}
+.col{
+  background-color: white;
+  width: 70%;
+  margin: 0px 200px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.col ul{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    padding: 10px 15px;
+    list-style-type: none;
+
+}
+.col li{
+    padding: 0px 15px;
+    
+}
+.col ul li a {
+    text-decoration: none;
+    font-weight: 300;
+    color: black;
+}
+.col ul li a:hover{
+  color: rgb(30, 94, 233);
+  
+}
+/*section1*/
+.section1{
+width: 70%;
+margin: 0px 200px;
+background-color: white;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.row1{
+
+display: flex;
+}
+.col1{
+  margin: 10px 30px;
+ 
+}
+.col--{
+    border: 1px solid gray;
+   margin: 10px 10px;
+   background-color: rgb(240, 246, 255);
+  
+}
+.col2{
+    margin: 10px 30px;
+    
+}
+.col2 h4 a{
+    text-decoration: none;
+    color:rgb(30, 94, 233);
+}
+.col2 h4 a:hover{
+    color: lightseagreen;
+}
+.col3{
+    margin: 10px 20px;
+    
+
+}
+.btn{
+    padding: 5px 20px;
+    margin-top: 100px;
+    margin-left: 68px;
+    border: 1px solid black;
+    font-size: 18px;
+    background-color: lightsteelblue;
+}
+.col4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+
+}
+.col4 h3{
+    color: white;
+    background-color:rgb(30, 94, 233) ;
+    font-weight: 100;
+    padding: 3px 20px;
+    margin-bottom: 10px;
+}
+/*section2*/
+.section2{
+    width: 70%;
+    margin: 0px 200px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.row2{
+  display: flex;
+}
+.col-1{
+    border: 1px solid gray;
+    margin: 10px 10px;
+    background-color: rgb(240, 246, 255);
+}
+.col5{
+    margin: 10px 20px;
+}
+.col6{
+    margin: 10px 20px;
+}
+.col6 ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    padding-top: 5px;
+}
+.col6 ul li a:hover{
+    color:rgb(30, 94, 233) ; ;
+}
+.col7{
+    margin: 10px 10px;
+}
+.col8{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+
+
+}
+.col8 ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500px;
+}
+.col8 ul li a:hover{
+    color:rgb(30, 94, 233) ; ;
+}
+.col8 h3{
+    color: white;
+    background-color:rgb(30, 94, 233) ;
+    font-weight: 100;
+    padding: 3px 25px;
+    margin-bottom: 10px;
+}
+.btn1{
+    padding: 5px 10px;
+    border: 1px solid black;
+    font-size: 18px;
+    background-color: lightsteelblue;
+    margin-top: 100px;
+}
+/*section3*/
+.section3{
+    width: 70%;
+    margin: 0px 200px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.row4{
+display: flex;
+}
+.col9{
+    margin: 10px 20px;
+}
+.col10{
+    margin: 10px 20px;
+}
+.col10 ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500px;
+    font-size: 15px;
+    padding-top: 5px;
+
+}
+.col10 ul li a:hover{
+    color:rgb(30, 94, 233) ; ;
+}
+.col11{
+    margin: 10px 10px;
+}
+.col12{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+ 
+}
+.col12 ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500px;
+}
+.col12 ul li a:hover{
+    color:rgb(30, 94, 233) ; ;
+}
+.col12 h3{
+    color: white;
+    background-color:rgb(30, 94, 233) ;
+    font-weight: 100;
+    padding: 3px 20px;
+    margin-bottom: 10px;
+}
+.col-2{
+    border: 1px solid gray;
+    margin: 10px 10px;
+    background-color: rgb(240, 246, 255);
+}
+.btn2{
+    padding: 5px 20px;
+    border: 1px solid black;
+    font-size: 18px;
+    background-color: lightsteelblue;
+    margin-top: 150px; 
+}
+/*footer section*/
+.section4{
+    width: 70%;
+    margin: 0px 200px;
+    background-color: rgb(229, 236, 247);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: rgb(30, 94, 233);
+}
+.row5{
+    display: flex;
+}
+.col13{
+  margin: 20px 100px;
+}
+.col14{
+  margin-left: 250px;
+  margin-top: 20px;
+}
+
